@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Premium Breakout Masterpiece</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<canvas id="gameCanvas"></canvas>
+
+	<!-- Игровой интерфейс поверх Canvas -->
+	<div id="ui-layer">
+		
+		<div id="screen-overlay" class="overlay hidden">
+			<div class="overlay-content">
+				<h1 id="overlay-title">BREAKOUT</h1>
+				<p id="overlay-subtitle">Нажмите ПРОБЕЛ, чтобы начать</p>
+				<div id="stats-summary" class="hidden"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="game.js"></script>
+</body>
+</html>
